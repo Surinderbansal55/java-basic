@@ -1,8 +1,8 @@
 import java.util.*;
 import java.io.*;
-public class test {
+public class bufferReader {
     public static void main(String args[])throws Exception{
-        FileReader fr=new FileReader("C:\\Users\\ASUS\\OneDrive\\Documents\\binart_to_octal.txt");
+        FileReader fr=new FileReader("C:\\tset.txt");  //your file location
         BufferedReader br=new BufferedReader(fr);
 
         int i;
